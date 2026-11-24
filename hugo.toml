@@ -1,0 +1,7 @@
+baseURL = 'https://bsobotka.github.io'
+languageCode = 'en-us'
+title = 'My Photo Journal'
+theme = 'gallery'
+
+[params]
+  defaultTheme = 'dark'
