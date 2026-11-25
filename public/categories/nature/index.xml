@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nature on Ben&#39;s photo dump</title>
+    <link>http://localhost:1313/categories/nature/</link>
+    <description>Recent content in Nature on Ben&#39;s photo dump</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/nature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leaves</title>
+      <link>http://localhost:1313/2026-11-23/</link>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2026-11-23/</guid>
+        <media:content url="http://localhost:1313/2026-11-23/IMG_4598_hu_a14dcd5972b5339.JPG" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/2026-11-23/IMG_4598_hu_a14dcd5972b5339.JPG&quot; /&gt;
+          &lt;p&gt; Making a video to feel entirely cohesive, to flow not just in a rhythmic sense through the metronome of sync but through a deeper, more intuitive inflection of emotional cues that do not lend themselves to universal rules or guidelines, can be a dizzying task for any editor. It’s also ridiculously easy to overthink it, and end up trying to manufacture it through logic rather than feeling – an often fatal temptation for any editor to indulge in. But then there are videos like Someone Somewhere (In Summertime), which tread the thin line between insanity and genius, and suggest that maybe this is the true path to that golden end, dangerous and difficult as it may be.
+
+
+There’s a manic structure to this video, a mosaic quality that loses its form when you zoom in too close. GonzoZord’s scene selection can feel untamed and entirely counterintuitive – it’s a kind of unspoken rule, for example, that you save the anime’s most emotionally potent or visually enticing scenes for the song’s biggest moments. Instead, GonzoZord just kind of whips all of Metropolis’ money shots at the canvas of his editing program, seemingly without any plan whatsoever, eschewing any attempt at narrative architecture, cutting back and forth, away from and back to similar scenes in a manner that feels utterly bizarre and inverted, and can come across as almost caustic to the viewer who values order and rationality in their AMVs, thank you very much. This video is one of the most complex AMV puzzles I’ve ever come across in the way it jumps between emotions, story beats, and character development – I feel a strong urge to use the word “random” here and call it a day, but if it were that easy you probably wouldn’t be reading these words at all, and certainly not this deep into the list, so hold your horses for just one more minute. &lt;/p&gt;
+        </description></item>
+    <item>
+      <title>A tree in a field, idk</title>
+      <link>http://localhost:1313/2026-11-22/</link>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2026-11-22/</guid>
+        <media:content url="http://localhost:1313/2026-11-22/IMG_9792_hu_ba788daf619eadc.JPG" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/2026-11-22/IMG_9792_hu_ba788daf619eadc.JPG&quot; /&gt;
+          &lt;p&gt;Taken sometime in 2013.&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>

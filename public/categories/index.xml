@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My Photo Journal</title>
+    <title>Categories on Ben&#39;s photo dump</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on My Photo Journal</description>
+    <description>Recent content in Categories on Ben&#39;s photo dump</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022</title>
+      <link>http://localhost:1313/categories/2022/</link>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/2022/</guid><description>&lt;no value&gt;</description></item>
+    <item>
+      <title>Chicago</title>
+      <link>http://localhost:1313/categories/chicago/</link>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/chicago/</guid><description>&lt;no value&gt;</description></item>
+    <item>
+      <title>Street Photography</title>
+      <link>http://localhost:1313/categories/street-photography/</link>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/street-photography/</guid><description>&lt;no value&gt;</description></item>
+    <item>
+      <title>2019</title>
+      <link>http://localhost:1313/categories/2019/</link>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/2019/</guid><description>&lt;no value&gt;</description></item>
+    <item>
+      <title>Matthieson State Park</title>
+      <link>http://localhost:1313/categories/matthieson-state-park/</link>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/matthieson-state-park/</guid><description>&lt;no value&gt;</description></item>
+    <item>
+      <title>Nature</title>
+      <link>http://localhost:1313/categories/nature/</link>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/nature/</guid><description>&lt;no value&gt;</description></item>
+    <item>
+      <title>2013</title>
+      <link>http://localhost:1313/categories/2013/</link>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/2013/</guid><description>&lt;no value&gt;</description></item>
+    <item>
+      <title>Idk</title>
+      <link>http://localhost:1313/categories/idk/</link>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/idk/</guid><description>&lt;no value&gt;</description></item>
   </channel>
 </rss>
