@@ -1,8 +1,8 @@
 baseURL = 'https://bsobotka.github.io'
 languageCode = 'en-us'
 title = "Ben's photo dump"
-description = 'One random photograph from my backlog a day'
 theme = 'gallery'
 
 [params]
+  description = 'One random photograph from my backlog a day'
   defaultTheme = 'dark'
