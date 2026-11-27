@@ -1,0 +1,14 @@
+:root,
+html.dark,
+html.light {
+  --surface-1: #18181b !important;
+  --surface-2: #242429 !important;
+  --text-1: #f4f4f5 !important;
+  --text-2: #a1a1aa !important;
+}
+
+html,
+body {
+  background-color: #212121 !important;
+  color: #f4f4f5 !important;
+}
