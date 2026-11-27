@@ -6,3 +6,5 @@ theme = 'gallery'
 [params]
   description = 'One random photograph from my backlog a day'
   defaultTheme = 'dark'
+[pagination]
+  pagerSize = 30

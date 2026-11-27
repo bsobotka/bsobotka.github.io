@@ -1,30 +1,48 @@
 {{ define "main" }}
   {{ partial "title.html" . }}
 
-  <section class="gallery" style="display: flex; flex-direction: column; align-items: center; margin: 2rem auto; padding: 0 1rem;">
-    {{ range .Resources.ByType "image" }}
-      {{ $full := . }}
-      {{ $display := .Fit "1600x1600 q90" }}
-      <a href="{{ $full.RelPermalink }}"
-         data-pswp-src="{{ $full.RelPermalink }}"
-         data-pswp-width="{{ $full.Width }}"
-         data-pswp-height="{{ $full.Height }}"
-         target="_blank"
-         style="display: block; max-width: 100%; cursor: zoom-in;">
-        <img src="{{ $display.RelPermalink }}"
-             width="{{ $display.Width }}"
-             height="{{ $display.Height }}"
-             alt="{{ $.Title }}"
-             style="display: block; max-width: 100%; max-height: 82vh; width: auto; height: auto; margin: 0 auto; border-radius: 4px;" />
-      </a>
-    {{ end }}
+  <style>
+    .prose-text p {
+      margin-top: 0 !important;
+      margin-bottom: 1.4rem !important;
+    }
+    .prose-text p:last-child {
+      margin-bottom: 0 !important;
+    }
+  </style>
 
-    {{ with .Params.description }}
-      <div style="max-width: 680px; width: 100%; margin-top: 1.75rem; text-align: left; line-height: 1.65; font-size: 1.05rem;">
-        {{ . | markdownify }}
-      </div>
-    {{ end }}
-  </section>
+  {{ if .Resources.ByType "image" }}
+    <section class="gallery" style="display: flex; flex-direction: column; align-items: center; margin: 2rem auto; padding: 0 1rem;">
+      {{ range .Resources.ByType "image" }}
+        {{ $full := . }}
+        {{ $display := .Fit "1600x1600 q90" }}
+        <a href="{{ $full.RelPermalink }}"
+           data-pswp-src="{{ $full.RelPermalink }}"
+           data-pswp-width="{{ $full.Width }}"
+           data-pswp-height="{{ $full.Height }}"
+           target="_blank"
+           style="display: block; max-width: 100%; cursor: zoom-in;">
+          <img src="{{ $display.RelPermalink }}"
+               width="{{ $display.Width }}"
+               height="{{ $display.Height }}"
+               alt="{{ $.Title }}"
+               style="display: block; max-width: 100%; max-height: 82vh; width: auto; height: auto; margin: 0 auto; border-radius: 4px;" />
+        </a>
+      {{ end }}
+
+      {{ with .Params.description }}
+        <div class="prose-text" style="max-width: 680px; width: 100%; margin-top: 1.75rem; text-align: left; line-height: 1.65; font-size: 1.05rem;">
+          {{ . | markdownify }}
+        </div>
+      {{ end }}
+    </section>
+  {{ end }}
+
+  {{ with .Content }}
+    <div class="prose-text" style="max-width: 680px; width: 100%; margin: 2rem auto; padding: 0 1rem; text-align: left; line-height: 1.7; font-size: 1.05rem;">
+      {{ . }}
+    </div>
+  {{ end }}
 
   {{ partial "related.html" . }}
 {{ end }}

@@ -1,5 +1,13 @@
 {{ if .Title }}
   <hgroup style="text-align: center;">
     <h1>{{ .Title }}</h1>
+    {{ if .IsHome }}
+      {{ with .Params.description }}
+        <p>{{ . | markdownify }}</p>
+      {{ end }}
+      <p style="margin-top: 1.25rem;">
+        <a href="{{ "about/" | relURL }}" style="text-decoration: underline;">About this place</a>
+      </p>
+    {{ end }}
   </hgroup>
 {{ end }}
